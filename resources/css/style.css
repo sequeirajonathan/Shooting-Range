@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css?family=Lobster");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Lobster", cursive;
+  font-size: 3vw;
+}
+
+.range {
+  width: 100vw;
+  min-height: 25vw;
+  max-height: 25vw;
+  background: url("../images/shooting-range.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.targets img {
+  position: relative;
+  top: 9vw;
+  left: 14vw;
+  width: 8vw;
+  height: 8vw;
+  user-drag: none; 
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+#position:hover {
+  cursor: crosshair;
+}
+
+.score {
+  position: relative;
+  left: 5vw;
+  padding: 2.5vw;
+}
+
+#score {
+  font-weight: bold;
+  font-size: 5vw;
+  padding: 2.5vw;
+}
+
+.reset {
+  padding: 3.5vw;
+  position: relative;
+  bottom: 10vw;
+  left: 40vw;
+}
+
+.reset button {
+  padding: 0.8vw;
+  background-color: aquamarine;
+  border-radius: 8px;
+  font-size: 1vw;
+}
+
+.timer {
+  position: relative;
+  padding: 2.5vw;
+  top: -26vw;
+  left: 70vw;
+}
+
+#time {
+  position: relative;
+  padding: 2.5vw;
+  top: 1vw;
+  left: 5vw;
+  font-size: 5vw;
+}
